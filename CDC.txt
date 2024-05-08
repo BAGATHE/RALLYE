@@ -1,0 +1,28 @@
+-CONTEXT
+  gestion des donnéé de course d'une saison de rallye
+  une SAISON comporte plusieur manche de rallye 
+  une RALLYE comporte plusieur special  5 special minimum pour chaque RALLYE
+  les coureur participe a chaque special
+  les coureur ont une categorie A,B,C,ect..... 
+  une special est chronometre en temps 
+  chaque coureur doit participer au special et il sera chronometre pour chaque special
+  a chaque special les coureur sont classer en fonction de leur temps 
+  a chaque RALLYE il  y a un classement general
+  le classement general est defini par la moyenne de temps effectuer dans un rallye par coureur 
+  le coureur est classer dans chaque rally en fonction de la moyenne general de temp effectuer pendant un rallye 
+  a chaque rallye on obtient le classement par categorie
+
+
+-OBJECTIF
+  on peut voir le classement general et par categorie  par rallye et par saison  
+-FONCTIONNALITER
+  -choix de saison
+  -insertion de coureur 
+  -insertion de rallye et nombre de special 
+  -insertion de chronometre de coureur par special pour la saison et  rally choisi
+  -affichage statistique classement general et par categorie pour chaque rally et saison 
+  -affichage statistique par special 
+
+-TECHNOLOGIE 
+  C++ Qt
+  mysql  
