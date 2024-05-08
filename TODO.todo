@@ -1,0 +1,46 @@
+Installation environnement pour C++ et mysql 
+- Installer cmake
+- Installer mysql
+-Installer Qt creator
+
+CREATION table 
+    -Saison(idSaison,anner)
+    -Categorie(idCategorie,intituler)
+    -Pilote(idPilote,nom,idCategorie)
+    -Rallye(idRallye,idSaison,intituler)
+    -special(idspecial,intituler)
+    -RallyeSpecial(idRallyspecial,idRallye,idspecial,idPilote,chronometre)
+CREATION classe 
+    -Saision(
+        -idSaison
+        -anner 
+        -rallye[]
+    )
+    -categorie(
+        -idCategorie 
+        -intituler 
+    )
+    -Pilote(
+        -idPilote
+        -Categorie
+        -nom
+    )
+    -Special(
+        idSpecial,
+        intituler,
+    )
+    -Rallye(
+        -idRallye 
+        -idSaison
+        -intituler
+        -special[]
+    )
+    -RallyeSpecial(
+        idRallyspecial,
+        idRallye,
+        idSpecial?
+        idPilote,
+        chronometre,
+    )
+    
+    
